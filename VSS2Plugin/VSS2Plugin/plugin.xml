@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.ghc.ghTester.functions">
+      <function
+            displayName="VSS2Plugin"
+            functionClass="com.samples.funtions.VSS2Plugin"
+            maxParameters="3"
+            minParameters="2"
+            name="VSS2Plugin"
+            syntax="VSS2Plugin(data, inputFormat [, outputFormat])">
+      </function>
+   </extension>
+
+</plugin>

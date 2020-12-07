@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VSS2Plugin
+Bundle-SymbolicName: com.samples.functions.VSS2Plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: com.samples.functions.VSS2Plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.ghc.ghTester;bundle-version="1.950.0"
