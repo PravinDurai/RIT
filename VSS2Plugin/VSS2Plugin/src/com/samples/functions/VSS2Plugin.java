@@ -17,7 +17,7 @@ public class VSS2Plugin {
 	DataOutputStream dos = null;
 	String message = null;
 	
-	private InputStream bArray;
+	ByteArrayInputStream bArray;
 	private DataInputStream dis=new DataInputStream(bArray);
 	
 	private ByteArrayOutputStream finalArrayOutputStream = new ByteArrayOutputStream();
@@ -100,6 +100,11 @@ public class VSS2Plugin {
 	public Function setDis(DataInputStream dis) {
 		this.dis = dis;
 	}
+	
+	public Function setbyteArray(byte[] byteArray) {
+		this.bArray=new ByteArrayInputStream(byteArray);
+	}
+
 
 	public Object evaluate(Object data) {
 
